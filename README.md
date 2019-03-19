@@ -10,7 +10,7 @@ Specifically, We wrap the NAQANET model (described in the [DROP paper](https://a
 
 ## Submitting to the leaderboard
 
-Follow the following steps from the repository root directory:
+Follow the these steps in the repository root directory:
 
 1. Create a docker image:
 
@@ -20,7 +20,7 @@ Follow the following steps from the repository root directory:
 
         beaker blueprint create -n my-naqanet-blueprint naqanet:latest
 
-**NOTE:** The blueprint name (e.g., `my-naqanet-blueprint`) should be unique in beaker.
+   **NOTE:** The blueprint name (e.g., `my-naqanet-blueprint`) should be unique in beaker.
 
 3. Make a submission:
    * Follow the steps on the [DROP leaderboard](https://leaderboard.allenai.org/drop/submissions/public) to gain access to making submissions.
