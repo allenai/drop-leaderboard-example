@@ -2,7 +2,7 @@
 
 This repository presents an example of a submission to the  [DROP leaderboard](https://leaderboard.allenai.org/drop/submissions/public).
 
-[predict.py](predict.py) wraps the NAQANET model (described in the [DROP paper] and produce output which conforms to that expected by [our evaluator](https://github.com/allenai/allennlp/blob/master/allennlp/tools/drop_eval.py). 
+[predict.py](predict.py) wraps the NAQANET model (described in the [DROP paper](https://arxiv.org/abs/1903.00161) and produces output which conforms to the format expected by [our evaluator](https://github.com/allenai/allennlp/blob/master/allennlp/tools/drop_eval.py). 
 [run.sh](run.sh), which will be run by the leaderboard, supplies the wrapper with prescribed input and output parameters, as well as the trained model to run.
 
 Finally, follow the instructions below to create (https://arxiv.org/abs/1903.00161) a [Docker](https://www.docker.com) container and publish it as a [beaker](https://beaker.org/) blueprint, which can then be submitted as a leaderboard entry.
@@ -10,7 +10,7 @@ Finally, follow the instructions below to create (https://arxiv.org/abs/1903.001
 ## Requirements
 
 * [Docker](https://www.docker.com)
-* [beaker](https://beaker.org/)
+* [beaker](https://beaker.org)
 
 ## Submitting to the leaderboard
 
