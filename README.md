@@ -1,6 +1,6 @@
 # DROP-leaderboard-example
 
-This repository is an example of a [DROP leaderboard](https://leaderboard.allenai.org/drop/submissions/public).
+This repository presents an example of a submission to the  [DROP leaderboard](https://leaderboard.allenai.org/drop/submissions/public).
 Specifically, We wrap the NAQANET model (described in the [DROP paper](https://arxiv.org/abs/1903.00161) in a [Docker](https://www.docker.com) container and publish it as a [beaker](https://beaker.org/) blueprint, which can then be submitted as a leaderboard entry.
 
 ## Requirements
