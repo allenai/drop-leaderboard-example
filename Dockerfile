@@ -25,7 +25,7 @@ RUN apt-get update --fix-missing && apt-get install -y \
 COPY requirements.txt .
 COPY install_requirements.sh .
 COPY predict.py .
-COPY run.sh .
+COPY run_model.sh .
 RUN ./install_requirements.sh
 
 # EXPOSE 8000
