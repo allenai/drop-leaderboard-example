@@ -19,6 +19,8 @@ RUN apt-get update --fix-missing && apt-get install -y \
     libevent-dev \
     build-essential && \
     rm -rf /var/lib/apt/lists/*
+    
+WORKDIR /local
 
 # Copy select files needed for installing requirements.
 # We only copy what we need here so small changes to the repository does not trigger re-installation of the requirements.
